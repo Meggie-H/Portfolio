@@ -3,7 +3,8 @@
   display: grid;
   place-items: center;
   width: 100%;
-  height: 100vh; /* Use viewport height instead of percentage */
+  height: 45vh; /* Use viewport height instead of percentage */
+  right: -30%;
   background-image: url('/assets/me.jpg');
   background-position: center;
   background-size: contain; /* Try 'contain' instead of 'cover' */
@@ -27,7 +28,7 @@
     border-radius: 50%;
     border: 1px solid #555;
   
-    --radius: 44vmin;
+    --radius: 48vw;
     width: calc(2 * var(--radius));
     height: calc(2 * var(--radius));
     z-index: 0;
@@ -39,7 +40,7 @@
     border-radius: 50%;
     border: 1px solid #555;
   
-    --radius: 38vmin;
+    --radius: 42vw;
     width: calc(2 * var(--radius));
     height: calc(2 * var(--radius));
     z-index: 1;
@@ -53,7 +54,7 @@
     border-radius: 50%;
     border: 1px solid white;
   
-    --radius: 41vmin;
+    --radius: 45vw;
     width: calc(2 * var(--radius));
     height: calc(2 * var(--radius));
     z-index: 2;
