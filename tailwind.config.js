@@ -10,6 +10,10 @@ module.exports = {
       'danger': '#e3342f',
       'background-light': '#EAEAEA',
     },
+    fontFamily: {
+      sans: ['Inika', 'serif'],
+      inkia: ['Inknut Antiqua', 'serif'],
+    },
     extend: {},
   },
   plugins: [
